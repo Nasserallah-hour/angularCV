@@ -18,6 +18,12 @@
     "importHelpers": true,
     "target": "es2020",
     "module": "es2020",
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "types": [
+      "core-js"
+    ],
     "lib": [
       "es2020",
       "dom"
